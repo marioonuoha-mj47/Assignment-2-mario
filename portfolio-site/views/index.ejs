@@ -1,11 +1,13 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title><%= title %></title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
-  </head>
-  <body>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
-  </body>
-</html>
+<!-- include() pastes the shared header (navbar, Bootstrap, Font Awesome) here -->
+<%- include('partials/header') %>
+
+<!-- Home page hero section -->
+<div class="text-center py-5">
+  <h1 class="display-4 fw-bold">Hi, I'm Mario Onuoha</h1>
+  <p class="lead">YOUR TAGLINE HERE</p>
+  <a href="/projects" class="btn btn-primary btn-lg me-2"><i class="fa-solid fa-folder-open"></i> View My Projects</a>
+  <a href="/contact" class="btn btn-outline-dark btn-lg"><i class="fa-solid fa-paper-plane"></i> Contact Me</a>
+</div>
+
+<!-- include() pastes the shared footer here -->
+<%- include('partials/footer') %>
