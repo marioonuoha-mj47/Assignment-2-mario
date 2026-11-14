@@ -1,0 +1,17 @@
+<%- include('partials/header') %>
+<h1>Projects</h1>
+<div class="row">
+  <!-- Loop over the projects array sent from the route; one Bootstrap card each -->
+  <% projects.forEach(function (p) { %>
+    <div class="col-md-6 mb-4">
+      <div class="card h-100">
+        <div class="card-body">
+          <h5 class="card-title"><%= p.name %></h5>
+          <p class="card-text"><%= p.description %></p>
+          <a href="<%= p.link %>" class="btn btn-outline-primary">View</a>
+        </div>
+      </div>
+    </div>
+  <% }) %>
+</div>
+<%- include('partials/footer') %>
