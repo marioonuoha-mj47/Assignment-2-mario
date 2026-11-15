@@ -18,4 +18,4 @@ Then open http://localhost:3000
 - Express project structure generated with express-generator
 - Bootstrap 5: https://getbootstrap.com
 - Font Awesome: https://fontawesome.com
-- Wrote all the code 
+- Wrote all the code and got from recent lectures...
