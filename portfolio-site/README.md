@@ -2,7 +2,7 @@
 
 A multi-page personal portfolio built with **Node.js, Express and EJS** for INFR3120 (Web and Scripting Programming), Assignment 2, at Ontario Tech University.
 
-**Live site:** YOUR_RENDER_URL
+**Live site:** https://assignment-2-mario.onrender.com/
 **GitHub repository:** https://github.com/marioonuoha-mj47/Assignment-2-mario
 **Author:** Mario Onuoha
 
