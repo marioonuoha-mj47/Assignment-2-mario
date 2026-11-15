@@ -17,8 +17,8 @@ router.get('/about', function (req, res, next) {
 // which loops over it to build one card per project
 router.get('/projects', function (req, res, next) {
   const projects = [
-    { name: 'PROJECT 1 NAME', description: 'PROJECT 1 DESCRIPTION', link: '#' },
-    { name: 'PROJECT 2 NAME', description: 'PROJECT 2 DESCRIPTION', link: '#' }
+    { name: 'Express portfolio site', description: 'This website, built with Node.js, Express and EJS, using Bootstrap and Font Awesome, and deployed on Render.', link: 'https://github.com/marioonuoha-mj47/Assignment-2-mario' },
+    { name: 'HTML/CSS Project portfolio site', description: 'My first portfolio site, built as four separate pages with HTML5 and CSS3. It has a responsive fluid layout with media queries, gradients, a validated contact form, an embedded intro video, and is hosted on GitHub Pages.', link: 'https://github.com/marioonuoha-mj47/Assignment1-Portfolio' }
   ];
   res.render('projects', { title: 'Projects', projects: projects });
 });

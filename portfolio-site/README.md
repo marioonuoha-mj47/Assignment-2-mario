@@ -19,3 +19,8 @@ Then open http://localhost:3000
 - Bootstrap 5: https://getbootstrap.com
 - Font Awesome: https://fontawesome.com
 - Wrote all the code and got from recent lectures...
+
+run this command before debugging.
+dir portfolio-site 
+cd portfolio-site
+npm start
